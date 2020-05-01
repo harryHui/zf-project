@@ -8,9 +8,9 @@
       "type": "node",
       "request": "launch",
       "name": "启动程序",
-      // "skipFiles": [
-      //   "<node_internals>/**"
-      // ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
       "program": "${workspaceFolder}\\20-0 stream\\stream.js"
     }
   ]
